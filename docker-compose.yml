@@ -11,7 +11,7 @@ services:
 
   es01:
     build: .
-    image: flaviostutz/fess-elasticsearch:7.5.1
+    image: flaviostutz/fess-elasticsearch:7.5.1.2
     environment:
       - node.name=es01
       # - discovery.seed_hosts=es02
